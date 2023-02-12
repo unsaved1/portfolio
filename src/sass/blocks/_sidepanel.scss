@@ -1,0 +1,28 @@
+.sidepanel{
+    height: 340px;
+    position: fixed;
+    top: 230px;
+    left: 50px;
+    z-index: 3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    &__link{
+        color: #000;
+        text-decoration: none;
+        transition: 0.3s all;
+        &:hover{
+            color: white;
+        }
+    }
+    &__devider{
+        width: 2px;
+        height: 70px;
+        background: #000;
+    }
+    &__text{
+        writing-mode: vertical-lr;
+        transform: rotate(180deg);
+    }
+}
