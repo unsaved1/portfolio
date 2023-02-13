@@ -8,8 +8,10 @@
 
 *{
     font-family: 'Poppins', sans-serif;
+    color: #000;
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 body{
@@ -20,8 +22,17 @@ body{
     width: 1140px;
     margin: 0 auto;
 }
-@import "blocks/promo";
+.devider{
+    width: 60px;
+    height: 3px;
+    background-color: #000;
+    margin: 25px auto 0 auto;
+}
 @import "blocks/title";
 @import "blocks/btns";
+@import "blocks/promo";
 @import "blocks/sidepanel";
 @import "blocks/hamburger-menu";
+@import "blocks/about-me";
+@import "blocks/resume";
+@import "blocks/_skills";

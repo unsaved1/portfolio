@@ -1,0 +1,69 @@
+.skills{
+    padding: 120px 10px 0 10px;
+    &__title{
+        text-align: center;
+    }
+    &__wrapper{
+        margin-top: 60px;
+        display: grid;
+        grid-template: repeat(2, minmax(270px, auto)) / repeat(4, minmax(270px, auto));
+        gap: 13px;
+        &-item{
+            border: 1px solid #000000;
+            padding: 30px 30px 25px 30px;
+            .title{
+                margin: 0;
+                margin-top: 20px;
+            }
+        }
+    }
+    &__img{
+        height: 65px;
+    }
+    &__descr{
+        margin-top: 15px;
+        font-size: 12px;
+        line-height: 18px;  
+        
+    }
+
+    &__dial{
+        margin-top: 120px;
+        display: grid;
+        grid-template: repeat(2, minmax(70px, auto)) / repeat(3, minmax(350px, auto));
+        gap: 30px 45px;
+        &-item{
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            grid-template-rows: repeat(2, 1fr);
+        }
+        &-title{
+            position: relative;
+            padding-left: 14px;
+            grid-column: 1/2;
+            @include before_circle;
+        }
+        &-numb{
+            grid-column: 2/3;
+            justify-self: flex-end;
+        }
+        &-level{
+            position: relative;
+            grid-column: 1/3;
+            grid-row: 2/3;
+            align-self: flex-end;
+        }
+        &-backline{
+            border-radius: 4px;
+            height: 14px;
+            background-color: #E8E4DE;
+        }
+        &-line{
+            border-radius: 4px;
+            position: absolute;
+            height: 14px;
+            background-color: #44D3DC;
+            z-index: 3;
+        }
+    }
+}
