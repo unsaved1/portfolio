@@ -1,25 +1,22 @@
 .about-me{
     padding-top: 114px;
     &__wrapper{
-        display: flex;
-        padding-right: 100px;
-    }
-    &__photo{
-        margin-right: 68px;
-        img{
-            width: 400px;
-        }
-    }
-    &__block{
         display: grid;
-        grid-template-rows: minmax(240px, auto) minmax(252px, auto);
+        grid-template: repeat(2, 1fr) / 400px 570px;
+        column-gap: 70px;
         row-gap: 40px;
     }
-    &__descr{
-        grid-column: 1 / 3;
+    &__photo{
+        grid-row: 1/3;
+        grid-column: 1;
+        img{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
     }
-    .title.title_fz16{
-        margin-left: 12px;
+    &__descr{
+        width: 100%;
     }
     &__devider{
         margin: 0;
@@ -32,25 +29,23 @@
     }
     &__skills{
         grid-row: 2;
-        grid-column: 1 / 3;
+        grid-column: 2 / 3;
         display: grid;
-        grid-template-columns: repeat(2, 1fr);
+        grid-template: repeat(2, minmax(115px, auto)) / repeat(2, 260px);
+        column-gap: 50px;
     }
     &__skill{
-        display: flex;
-        width: 260px
+        display: grid;
+        grid-template-columns: 36px 200px;
+        column-gap: 24px;
     }
     .prev-circle{
         @include circle;
         width: 36px;
-        margin-right: 24px;
         span{
             display: block;
             font-size: 20px;
         }
-    }
-    &__skill-descr{
-        width: 200px;
     }
     &__skill-text{
         margin-top: 6px;
