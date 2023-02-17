@@ -85,7 +85,12 @@
         <div class="container">
             <div class="about-me__wrapper">
                 <div class="about-me__photo">
-                    <img src="img/me.jpg" alt="me">
+                    <!-- <img src="img/me.jpg" alt="me"> -->
+                    <picture>
+                        <source media="(max-width: 576px)" srcset="img/photo-me-min.jpg">
+                        <source media="(min-width: 577px)" srcset="img/me.jpg">
+                        <img src="img/me.jpg" alt="me">
+                    </picture>
                 </div>
                 <div class="about-me__descr">
                     <h2 class="title title_fz16">Про меня</h2>
@@ -288,7 +293,7 @@
             </div>
         </div>
     </section>
-    <!-- <section class="portfolio">
+    <section class="portfolio">
         <div class="container">
             <h2 class="title title_fz16 title__section-title">Портфолио</h2>
             <div class="title title__section-title">Мои работы</div>
@@ -385,8 +390,8 @@
                             <label for="name">Ваше имя</label>
                         </div>
 
-                        <div id="email" class="contacts__input">
-                            <input required type="email">
+                        <div class="contacts__input">
+                            <input required id="email" type="email">
                             <label for="email">Ваша почта</label>
                         </div>
 
@@ -406,15 +411,7 @@
                 </div>
             </div>
         </div>
-    </section> -->
-
-
-
-
-
-
-
-
+    </section>
     <script src="js/script.js"></script>
 </body>
 </html>

@@ -80,6 +80,7 @@
         grid-column: 1/3;
         display: grid;
         grid-template-columns: repeat(2, auto);
+        grid-auto-rows: minmax(36px, auto);
     }
     &__policy{
         font-size: 12px;
