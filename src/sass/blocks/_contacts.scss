@@ -28,6 +28,15 @@
     &__social{
         display: flex;
         margin-top: 20px;
+        a{
+            text-decoration: none;
+        }
+        span{
+            transition: 0.3s all;
+            &:hover{
+                color: white;
+            }
+        }
     }
     &__link{
         margin-right: 25px;

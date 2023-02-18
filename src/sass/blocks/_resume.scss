@@ -41,6 +41,7 @@
 
     }
     &__item{
+        min-height: 150px;
         position: relative;
         &::before{
             content: "";

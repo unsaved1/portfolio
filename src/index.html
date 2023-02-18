@@ -14,7 +14,7 @@
     <link rel="apple-touch-icon" sizes="72x72" href="icons/fav-icons/apple-icon-72x72.png">
     <link rel="apple-touch-icon" sizes="76x76" href="icons/fav-icons/apple-icon-76x76.png">
     <link rel="apple-touch-icon" sizes="114x114" href="icons/fav-icons/apple-icon-114x114.png">
-    <link rel="apple-touch-icon" sizes="120x120" href="icons/fav-icons/apple-icon-120x120.png">s
+    <link rel="apple-touch-icon" sizes="120x120" href="icons/fav-icons/apple-icon-120x120.png">
     <link rel="apple-touch-icon" sizes="144x144" href="icons/fav-icons/apple-icon-144x144.png">
     <link rel="apple-touch-icon" sizes="152x152" href="icons/fav-icons/apple-icon-152x152.png">
     <link rel="apple-touch-icon" sizes="180x180" href="icons/fav-icons/apple-icon-180x180.png">
@@ -30,9 +30,9 @@
 </head>
 <body>
     <aside class="sidepanel">
-        <a href="#" class="sidepanel__link"><span class="icon-Telegram"></span></a>
-        <a href="#" class="sidepanel__link"><span class="icon-Instagram"></span></a>
-        <a href="#" class="sidepanel__link"><span class="icon-Github"></span></a>
+        <a href="https://t.me/eI_wrld" class="sidepanel__link"><span class="icon-Telegram"></span></a>
+        <a href="https://www.instagram.com/el_wrld_/" class="sidepanel__link"><span class="icon-Instagram"></span></a>
+        <a href="https://github.com/unsaved1" class="sidepanel__link"><span class="icon-Github"></span></a>
         <div class="sidepanel__devider"></div>
         <div class="sidepanel__text"><span>Социальные сети</span></div>
     </aside>
@@ -46,18 +46,17 @@
             </div>
             <nav>
                 <ul class="menu__list">
-                    <li class="menu__link"><a href="#">ПРО МЕНЯ</a></li>
-                    <li class="menu__link"><a href="#">МОЙ ОПЫТ</a></li>
-                    <li class="menu__link"><a href="#">МОИ НАВЫКИ</a></li>
-                    <li class="menu__link"><a href="#">МОИ РАБОТЫ</a></li>
-                    <li class="menu__link"><a href="#">ПРАЙС-ЛИСТ</a></li>
-                    <li class="menu__link"><a href="#">КОНТАКТЫ</a></li>
+                    <li class="menu__link"><a href="#about-me">ПРО МЕНЯ</a></li>
+                    <li class="menu__link"><a href="#resume">МОЙ ОПЫТ</a></li>
+                    <li class="menu__link"><a href="#skills">МОИ НАВЫКИ</a></li>
+                    <li class="menu__link"><a href="#portfolio">МОИ РАБОТЫ</a></li>
+                    <li class="menu__link"><a href="#contacts">КОНТАКТЫ</a></li>
                 </ul>
             </nav>
             <div class="menu__social">
-                <a href="#"><span class="icon-Github"></span></a>
-                <a href="#"><span class="icon-Instagram"></span></a>
-                <a href="#"><span class="icon-Telegram"></span></a>
+                <a href="https://github.com/unsaved1"><span class="icon-Github"></span></a>
+                <a href="https://www.instagram.com/el_wrld_/"><span class="icon-Instagram"></span></a>
+                <a href="https://t.me/eI_wrld"><span class="icon-Telegram"></span></a>
             </div>
         </div>
         <div class="menu__overlay"></div>
@@ -73,16 +72,15 @@
             <div class="title title_fz16 promo__subtitle">Меня зовут Мифтахов Ильмир</div>
             <h1 class="title title_fz48 promo__title">Я web-разработчик из города Оренбург</h1>
             <div class="promo__btns">
-                <a href="#" class="promo__link btn">Портфолио</a>
-                <a href="#" class="promo__link">Про меня</a>
+                <a href="#portfolio" class="promo__link btn">Портфолио</a>
+                <a href="#about-me" class="promo__link">Про меня</a>
             </div>
         </div>
     </section>
-    <section class="about-me">
+    <section class="about-me" id="about-me">
         <div class="container">
             <div class="about-me__wrapper">
                 <div class="about-me__photo">
-                    <!-- <img src="img/me.jpg" alt="me"> -->
                     <picture>
                         <source media="(max-width: 576px)" srcset="img/photo-me-min.jpg">
                         <source media="(min-width: 577px)" srcset="img/me.jpg">
@@ -93,35 +91,25 @@
                     <h2 class="title title_fz16">Про меня</h2>
                     <div class="title">Меня зовут Ильмир</div>
                     <div class="about-me__devider devider"></div>
-                    <p class="about-me__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+                    <p class="about-me__text">Я начинающий веб-разработчик. <br>
+                    Постоянно обучаюсь, всегда остаюсь заинтересованным в сфере IT. <br>
+                    Изучаю <span>JavaScript</span>. <br>
+                    Есть цели и амбиции, а также результаты. <br>
+                    Коммуникабельный, ответственный, . </p>
                 </div>
                 <div class="about-me__skills">
                     <div class="about-me__skill">
                         <div class="prev-circle"><span class="icon-web-development"></span></div>
                         <div class="about-me__skill-descr">
                             <div class="title title_fz14">Web-разработка</div>
-                            <p class="about-me__skill-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                        </div>
-                    </div>
-                    <div class="about-me__skill">
-                        <div class="prev-circle"><span class="icon-Mobile-dev"></span></div>
-                        <div class="about-me__skill-descr">
-                            <div class="title title_fz14">Разработка приложений</div>
-                            <p class="about-me__skill-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                        </div>
-                    </div>
-                    <div class="about-me__skill">
-                        <div class="prev-circle"><span class="icon-Design"></span></div>                         
-                        <div class="about-me__skill-descr">
-                            <div class="title title_fz14">UI/UX Design</div>
-                            <p class="about-me__skill-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                            <p class="about-me__skill-text">Познакомился с данной деятельносьтю относительно недавно, но сильно увлечен и активно развиваюсь в этой области.</p>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-    <section class="resume">
+    <section class="resume" id="resume">
         <div class="container">
             <h2 class="title title_fz16 title__section-title">Опыт</h2>
             <div class="title title__section-subtitle">Чем я буду полезен</div>
@@ -130,20 +118,7 @@
                 <div class="ressume_column">
                     <h3 class="title title_fz20 resume__column-title">Образование</h3>
                     <ul class="resume__list">
-                        <li>
-                            <div class="resume__item">
-                                <div class="resume__item-head">
-                                    <div class="resume__item-icon">
-                                        <img src="icons/main-icons/University.svg" alt="university">
-                                    </div>
-                                    <h4 class="title title_fz14">МГТУ им. Н. Э. Баумана</h4>
-                                    <div class="resume__item-location">Диплом магистра | Москва (2014-2020)</div>
-                                </div>
-                                <div class="resume__item-body">
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmo. 
-                                </div>
-                            </div>
-                        </li>
+                        
                         <li>
                             <div class="resume__item">
                                 <div class="resume__item-head">
@@ -154,7 +129,7 @@
                                     <div class="resume__item-location">Курсы по Web-разработке </div>
                                 </div>
                                 <div class="resume__item-body">
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmo. 
+                                    Прошел курсы по web-разработкам. Изучил HTML5, CSS3. Научился работать с GitHub, Git, Gulp, БЭМ и с предпроцессорами SCSS и SASS
                                 </div>
                             </div>
                         </li>
@@ -167,27 +142,13 @@
                             <div class="resume__item">
                                 <div class="resume__item-head">
                                     <div class="resume__item-icon">
-                                        <img src="icons/main-icons/Developer.svg" alt="university">
-                                    </div>
-                                    <h4 class="title title_fz14">Front-End Developer</h4>
-                                    <div class="resume__item-location">EPAM | Москва (2018-2019)</div>
-                                </div>
-                                <div class="resume__item-body">
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmo. 
-                                </div>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="resume__item">
-                                <div class="resume__item-head">
-                                    <div class="resume__item-icon">
                                         <img src="icons/main-icons/designer.svg" alt="university">
                                     </div>
-                                    <h4 class="title title_fz14">UI/UX Designer</h4>
-                                    <div class="resume__item-location">Squad Team | Москва (2018)</div>
+                                    <h4 class="title title_fz14">Опыт работы отсутствует</h4>
+                                    <div class="resume__item-location">Город Оренбург</div>
                                 </div>
-                                <div class="resume__item-body">
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmo. 
+                                <div class="resume__item-body"> 
+                                    Активно ищу место в сфере веб-разработки
                                 </div>
                             </div>
                         </li>
@@ -196,7 +157,7 @@
             </div>
         </div>
     </section>
-    <section class="skills">
+    <section class="skills" id="skills">
         <div class="container">
             <h2 class="title title_fz16 title__section-title">Опыт</h2>
             <div class="title title__section-subtitle">Что я использую в работе</div>
@@ -217,146 +178,31 @@
                     <h3 class="title title_fz14">Java Script</h3>
                     <div class="skills__descr">Этот язык программирования позволяет оживить все что угодно: слайдеры, окна, подсказки, вкладки, получение данных от сервера и многое другое</div>
                 </div>
-                <div class="skills__wrapper-item">
-                    <div class="skills__img"><img src="img/tools/Jquery.svg" alt="Jquery"></div>
-                    <h3 class="title title_fz14">Jquery</h3>
-                    <div class="skills__descr">Библиотека Jquery позволит ускорить разработку. Без необходимости интегрировать в проект мы её не будем, но навык работы с ней присутствует</div>
-                </div>
-                <div class="skills__wrapper-item">
-                    <div class="skills__img"><img src="img/tools/React.svg" alt="React"></div>
-                    <h3 class="title title_fz14">React</h3>
-                    <div class="skills__descr">Эта библиотека позволяет создавать web-приложения. Мы можем создать максимально интерактивный продукт именно под ваши цели</div>
-                </div>
-                <div class="skills__wrapper-item">
-                    <div class="skills__img"><img src="img/tools/Node.js.svg" alt="Node.js"></div>
-                    <h3 class="title title_fz14">Node.js</h3>
-                    <div class="skills__descr">Эта платформа позволяет создавать бэкенд для вашего продукта - “мозги”, которые будут выполнять действия, которые пользователь не видит</div>
-                </div>
-                <div class="skills__wrapper-item">
-                    <div class="skills__img"><img src="img/tools/Mongo.db.svg" alt="Mongo.db"></div>
-                    <h3 class="title title_fz14">Mongo.db</h3>
-                    <div class="skills__descr">Это нереляционная база данных, которая будет хранить данные вашего сайта или приложения</div>
-                </div>
-            </div>
-            <div class="skills__dial">
-                <div class="skills__dial-item">
-                    <div class="title title_fz14 skills__dial-title">Создание сайтов</div>
-                    <div class="skills__dial-numb">100%</div>
-                    <div class="skills__dial-level">
-                        <div class="skills__dial-line"></div>
-                        <div class="skills__dial-backline" style="width: 100%;"></div>
-                    </div>
-                </div>
-                <div class="skills__dial-item">
-                    <div class="title title_fz14 skills__dial-title">Создание приложений</div>
-                    <div class="skills__dial-numb">85%</div>
-                    <div class="skills__dial-level">
-                        <div class="skills__dial-line"></div>
-                        <div class="skills__dial-backline" style="width: 100%;"></div>
-                    </div>
-                </div>
-                <div class="skills__dial-item">
-                    <div class="title title_fz14 skills__dial-title">Работа с данными</div>
-                    <div class="skills__dial-numb">88%</div>
-                    <div class="skills__dial-level">
-                        <div class="skills__dial-line"></div>
-                        <div class="skills__dial-backline" style="width: 100%;"></div>
-                    </div>
-                </div>
-                <div class="skills__dial-item">
-                    <div class="title title_fz14 skills__dial-title">Креативность</div>
-                    <div class="skills__dial-numb">90%</div>
-                    <div class="skills__dial-level">
-                        <div class="skills__dial-line"></div>
-                        <div class="skills__dial-backline" style="width: 100%;"></div>
-                    </div>
-                </div>
-                <div class="skills__dial-item">
-                    <div class="title title_fz14 skills__dial-title">Создание дизайна</div>
-                    <div class="skills__dial-numb">80%</div>
-                    <div class="skills__dial-level">
-                        <div class="skills__dial-line"></div>
-                        <div class="skills__dial-backline" style="width: 100%;"></div>
-                    </div>
-                </div>
-                <div class="skills__dial-item">
-                    <div class="title title_fz14 skills__dial-title">Soft skills</div>
-                    <div class="skills__dial-numb">80%</div>
-                    <div class="skills__dial-level">
-                        <div class="skills__dial-line"></div>
-                        <div class="skills__dial-backline" style="width: 100%;"></div>
-                    </div>
-                </div>
             </div>
         </div>
     </section>
-    <section class="portfolio">
+    <section class="portfolio" id="portfolio">
         <div class="container">
             <h2 class="title title_fz16 title__section-title">Портфолио</h2>
             <div class="title title__section-title">Мои работы</div>
             <div class="devider"></div>
             <div class="portfolio__wrapper">
-                <a href="/uber/index.html" class="portfolio__item">
+                <a href="uber/index.html" class="portfolio__item">
                     <img src="img/my-prj/uber.jpg" alt="uber">
                 </a>
-                <a href="/pulse/index.html" class="portfolio__item">
+                <a href="pulse/index.html" class="portfolio__item">
                     <img src="img/my-prj/pulse.jpg" alt="pulse">
+                </a>
+                <a href="wordpress/index.html" class="portfolio__item">
+                    <img src="img/my-prj/wordpress.png" alt="bread">
                 </a>
                 <a href="#" class="portfolio__item">
                     <img src="img/my-prj/bread.jpg" alt="bread">
                 </a>
-                <a href="#" class="portfolio__item vertical">
-                    <img src="img/my-prj/plans.jpg" alt="plans">
-                </a>
-                <a href="#" class="portfolio__item">
-                    <img src="img/my-prj/ipad.jpg" alt="ipad">
-                </a>
-                <a href="#" class="portfolio__item horizontal">
-                    <img src="img/my-prj/mac.jpg" alt="mac">
-                </a>
-            </div>
-
-        </div>
-    </section>
-    <section class="price">
-        <div class="container">
-            <h2 class="title title_fz16 title__section-title">Прайс-лист</h2>
-            <div class="devider"></div>
-            <div class="price__wrapper">
-                <div class="price__item">
-                    <div class="title title_fz14">Landing-page</div>
-                    <div class="price__numb">от 8000 руб.</div>
-                    <div class="price__text">Одностраничный сайт для презентации услуг/товаров/...</div>
-                </div>
-                <div class="price__item">
-                    <div class="title title_fz14">Web-приложение</div>
-                    <div class="price__numb">от 28000 руб.</div>
-                    <div class="price__text">Приложение внутри браузера для лучшего комфорта</div>
-                </div>
-                <div class="price__item">
-                    <div class="title title_fz14">Корпоративный сайт</div>
-                    <div class="price__numb">от 20000 руб.</div>
-                    <div class="price__text">Сайт для вашего бизнеса или компании</div>
-                </div>
-                <div class="price__item">
-                    <div class="title title_fz14">Android/IOS Приложение</div>
-                    <div class="price__numb">от 25000 руб.</div>
-                    <div class="price__text">Приложение для смартфона любой ОС</div>
-                </div>
-                <div class="price__item">
-                    <div class="title title_fz14">Интернет-магазин</div>
-                    <div class="price__numb">от 30000 руб.</div>
-                    <div class="price__text">Инструмент для ваших продаж в сети</div>
-                </div>
-                <div class="price__item">
-                    <div class="title title_fz14">Дизайн</div>
-                    <div class="price__numb">Индивидуально</div>
-                    <div class="price__text">Создам дизайн для вашего сайта/приложения...</div>
-                </div>
             </div>
         </div>
     </section>
-    <section class="contacts">
+    <section class="contacts" id="contacts">
         <div class="container">
             <div class="contacts__wrapper">
                 <div class="contacts__photo">
@@ -370,13 +216,19 @@
 
                     <div class="contacts__social">
                         <div class="contacts__link">
-                            <span class="icon-Instagram"></span>
+                            <a href="https://www.instagram.com/el_wrld_/">
+                                <span class="icon-Instagram"></span>
+                            </a>
                         </div>
                         <div class="contacts__link">
-                            <span class="icon-Telegram"></span>
+                            <a href="https://t.me/eI_wrld">
+                                <span class="icon-Telegram"></span>
+                            </a>
                         </div>
                         <div class="contacts__link">
-                            <span class="icon-Github"></span>
+                            <a href="https://github.com/unsaved1">
+                                <span class="icon-Github"></span>
+                            </a>
                         </div>
                     </div>
                     <div class="title title_fz14 contacts__text">Или оставьте ваши данные и я сам вам напишу:</div>

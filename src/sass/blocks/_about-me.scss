@@ -2,7 +2,8 @@
     padding-top: 114px;
     &__wrapper{
         display: grid;
-        grid-template: repeat(2, 1fr) / 400px 570px;
+        grid-template-columns: minmax(300px, auto) minmax(400px, auto);
+        grid-template-rows: repeat(auto-fit, minmax(220px, auto));
         column-gap: 70px;
         row-gap: 40px;
     }
