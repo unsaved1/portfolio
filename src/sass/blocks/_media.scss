@@ -33,9 +33,7 @@
     }
     .portfolio{
         &__wrapper{
-            
-            justify-content: space-around;
-            row-gap: 35px;
+            gap: 13px;
             .horizontal, .vertical{
                 grid-row: unset;
                 grid-column: unset;
@@ -45,7 +43,7 @@
     .contacts{
         &__wrapper{
             padding: 0;
-            grid-template-columns: 400px 390px;
+            grid-template-columns: 400px 490px;
         }
         &__form{
             grid-template-rows: 45px 45px 130px 45px;
