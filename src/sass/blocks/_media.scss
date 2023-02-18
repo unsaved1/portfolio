@@ -26,9 +26,6 @@
         }
     }
     .skills{
-        &__wrapper{
-            grid-template: repeat(2, minmax(240px, auto)) / repeat(3, minmax(220px, auto));
-        }
         &__dial{
             grid-template: repeat(2, minmax(70px, auto)) / repeat(2, minmax(340px, auto));
             column-gap: 30px;
@@ -36,8 +33,7 @@
     }
     .portfolio{
         &__wrapper{
-            grid-template-columns: repeat(auto-fit, 280px);
-            grid-auto-rows: 280px;
+            
             justify-content: space-around;
             row-gap: 35px;
             .horizontal, .vertical{

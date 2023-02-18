@@ -6,7 +6,8 @@
     &__wrapper{
         margin-top: 60px;
         display: grid;
-        grid-template: repeat(auto-fit, minmax(270px, auto)) / repeat(4, minmax(270px, auto));
+        grid-template: repeat(auto-fit, minmax(270px, auto)) / repeat(auto-fit, 270px);
+        justify-content: space-between;
         gap: 13px;
         &-item{
             border: 1px solid #000000;
