@@ -3,6 +3,7 @@ const hamburger = document.querySelector('.hamburger'),
 
 hamburger.addEventListener('click', () => {
     menu.classList.toggle('menu__active');
+    hamburger.classList.toggle('hamburger_close')
 });
 const slider = tns({
   container: '.carousel',

@@ -1,5 +1,4 @@
-
-
+'use strict';
 var slider = tns({
     container: '.carousel__inner',
     items: 1,
@@ -13,6 +12,7 @@ var slider = tns({
         }
     }
 });
+
 
 document.querySelector('.prev').addEventListener('click', function () {
     slider.goTo('prev');
