@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Б1</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&family=Raleway:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="../../css/style.min.css">
+</head>
+<body>
+    <header class="b1__header header">
+        <div class="container">
+            <div class="header__line">
+                <div class="header__logo">
+                    <img src="../icons/logo.svg" alt="Здесь должна быть картинка">
+                </div>
+
+                <nav class="header__nav">
+                    <a class="header__nav-item" href="../../index.html">Главная</a>
+                    <a class="header__nav-item" href="stocks.html">Акции</a>
+                    <a class="header__nav-item" href="helper.html">Справочная</a>
+                </nav>
+
+                <div class="header__links">
+                    <a href="#" class="header__link">Вход</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+
+    <section class="b1-search">
+        <div class="container">
+            <ul class="search" type="none">
+                <li>
+                    <div class="a">
+                        <input type="text" class="elem" placeholder="Точка А" required>
+                        <input type="hidden" name="origin_iata" value="REN">
+                    </div>
+                </li>
+                <li>
+                    <div class="b">
+                        <input type="text" class="elem" placeholder="Точка Б" required>
+                    </div>
+                </li>
+                <li>
+                    <div class="there">
+                        <input type="date" class="elem">
+                    </div>
+                </li>
+                <li>
+                    <div class="back">
+                        <input type="date" class="elem">
+                    </div>
+                </li>
+                <li>
+                    <div class="find">
+                        <button class="elem fnd" type="submit">Найти</button>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <section class="content">
+        <div class="container">
+
+            <div class="content__wrapper">
+                <iframe class="content__map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d8202530.094194481!2d48.731796269339505!3d51.44147936096066!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x417bf7b0995fd495%3A0xdbd8a07200d6a3!2z0J7RgNC10L3QsdGD0YDQsywg0J7RgNC10L3QsdGD0YDQs9GB0LrQsNGPINC-0LHQuy4!5e0!3m2!1sru!2sru!4v1683911871849!5m2!1sru!2sru" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+                <div class="content__items">
+                    <div class="content__titles">
+                        <h2 class="content__title">По времени отправления</h2>
+                        <h2 class="content__title">По времени прибытия</h2>
+                        <h2 class="content__title">По стоимости</h2>
+                    </div>
+
+                    <a href="b2.html" class="content__item">
+                        <div class="content__way">
+                            397Б<span class="span-round"></span> ФПК <span class="span-round"></span> <span>Челябинск-Главный</span> > Оренбург > Адлер <span class="span-blue">Маршрут</span>
+                        </div>
+
+                        <div class="content__points">
+                            <div class="content__point content__point_prev">
+                                <div class="content__data">1 июля, сб</div>
+                                <div class="content__time">17:21</div>
+                                <div class="content__city">Оренбург</div>
+
+                                <div class="content__stop">Стоянка: 41 мин</div>
+                            </div>
+                            
+                            <div class="content__arrow">
+                                <img src="../icons/arrow.svg" alt="arrow">
+                                <span>5 дн 6 ч 30 мин</span>
+                            </div>
+                            
+                            <div class="content__point content__point_next">
+                                <div class="content__data">6 июля, чт</div>
+                                <div class="content__time">23:51</div>
+                                <div class="content__city">Адлер</div>
+                            </div>
+                        </div>
+
+                        <div class="content__devider"></div>
+
+                        <div class="content__costs">
+                            <div class="content__cost-text">
+                                Плацкартный <span class="span-count">12</span> <span class="span-price">от 3269 ₽</span>
+                            </div>
+                            <div class="content__cost-text">
+                                Купе <span class="span-count">4</span> <span class="span-price">от 4421 ₽</span>
+                            </div>
+                            <div class="content__cost-text">
+                                Плацкартный <span class="span-count">2</span> <span class="span-price">от 19001 ₽</span>
+                            </div>
+                        </div>
+                    </a>
+                
+                    <a href="#" class="content__item">
+                        <div class="content__way">
+                            397Б<span class="span-round"></span> ФПК <span class="span-round"></span> <span>Челябинск-Главный</span> > Оренбург > Адлер <span class="span-blue">Маршрут</span>
+                        </div>
+
+                        <div class="content__points">
+                            <div class="content__point content__point_prev">
+                                <div class="content__data">1 июля, сб</div>
+                                <div class="content__time">09:00</div>
+                                <div class="content__city">Оренбург</div>
+
+                                <div class="content__stop">Стоянка: 46 мин</div>
+                            </div>
+                            
+                            <div class="content__arrow">
+                                <img src="../icons/arrow.svg" alt="arrow">
+                                <span>5 дн 6 ч 20 мин</span>
+                            </div>
+                            
+                            <div class="content__point content__point_next">
+                                <div class="content__data">6 июля, чт</div>
+                                <div class="content__time">17:20</div>
+                                <div class="content__city">Адлер</div>
+                            </div>
+                        </div>
+
+                        <div class="content__devider"></div>
+
+                        <div class="content__costs">
+                            <div class="content__cost-text">
+                                Плацкартный <span class="span-count">18</span> <span class="span-price">от 5469 ₽</span>
+                            </div>
+                            <div class="content__cost-text">
+                                Купе <span class="span-count">9</span> <span class="span-price">от 7794 ₽</span>
+                            </div>
+                            <div class="content__cost-text">
+                                Плацкартный <span class="span-count">7</span> <span class="span-price">от 18301 ₽</span>
+                            </div>
+                        </div>
+                    </a>
+                
+                    <a href="#" class="content__item">
+                        <div class="content__way">
+                            397Б<span class="span-round"></span> ФПК <span class="span-round"></span> <span>Челябинск-Главный</span> > Оренбург > Адлер <span class="span-blue">Маршрут</span>
+                        </div>
+
+                        <div class="content__points">
+                            <div class="content__point content__point_prev">
+                                <div class="content__data">1 июля, сб</div>
+                                <div class="content__time">17:21</div>
+                                <div class="content__city">Оренбург</div>
+
+                                <div class="content__stop">Стоянка: 41 мин</div>
+                            </div>
+                            
+                            <div class="content__arrow">
+                                <img src="../icons/arrow.svg" alt="arrow">
+                                <span>5 дн 6 ч 30 мин</span>
+                            </div>
+                            
+                            <div class="content__point content__point_next">
+                                <div class="content__data">6 июля, чт</div>
+                                <div class="content__time">23:51</div>
+                                <div class="content__city">Адлер</div>
+                            </div>
+                        </div>
+
+                        <div class="content__devider"></div>
+
+                        <div class="content__costs">
+                            <div class="content__cost-text">
+                                Плацкартный <span class="span-count">12</span> <span class="span-price">от 3269 ₽</span>
+                            </div>
+                            <div class="content__cost-text">
+                                Купе <span class="span-count">4</span> <span class="span-price">от 4421 ₽</span>
+                            </div>
+                            <div class="content__cost-text">
+                                Плацкартный <span class="span-count">2</span> <span class="span-price">от 19001 ₽</span>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__ticket">
+                <img src="../img/ticket.png" alt="ticket">
+            </div>
+
+            <div class="footer__wrapper">
+                <div class="footer__item">
+                    <a href="#" class="footer__text footer__text_upper">8 800 123-45-00</a>
+                    <div class="footer__text">звонок бесплатный для всех <br>
+                        регионов РФ</div>
+                </div>
+                
+                <div class="footer__item">
+                    <a href="#" class="footer__text footer__text_upper">+7 (499) 123-45-00</a>
+                    <div class="footer__text">по всему миру, оплата в соответствии
+                        с 
+                        <br> тарифами вашего оператора связи</div>
+                </div>
+                
+                <div class="footer__item footer__item_email">
+                    <a href="#" class="footer__text footer__text_upper">FROMATOB@MAIL.RU</a>
+                        <div class="footer__text">для вопросов, связанных с электронными билетами</div>
+                </div>
+                <div class="footer__item">
+                    <a href="#" class="footer__text footer__text_upper">МЫ НАХОДИМСЯ ПО АДРЕСУ:</a>
+                        <div class="footer__text">г.Оренбург, ул. Чкалова 11</div>
+                        <div class="footer__social">
+                            <a href="#" class="footer__social-icon">
+                                <img src="../icons/VK.svg" alt="">
+                            </a>
+                            <a href="#" class="footer__social-icon">
+                                <img src="../icons/Telegram.svg" alt="">
+                            </a>
+                            <a href="#" class="footer__social-icon">
+                                <img src="../icons/YouTube.svg" alt="">
+                            </a>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <div class="modal">
+        <div class="modal__window">
+            <div class="modal__triggers">
+                <button data-tab="1" class="modal__trigger modal__trigger_active">ВХОД</button>
+                <button data-tab="2" class="modal__trigger modal__trigger">РЕГИСТРАЦИЯ</button>
+            </div>
+            <form action="#" class="modal__form modal__form_login">
+            <div class="modal__inputs">
+                <div class="modal__input">
+                    <label for="login">Логин</label>
+                    <input id="login" type="text">
+                </div>
+
+                <div class="modal__input">
+                    <label for="password">Пароль</label>
+                    <input id="password" type="password">
+                </div>
+            </div>
+
+            <div class="modal__devider"></div>
+
+            <div class="modal__btns">
+                <button type="button" class="modal__btn modal__btn_cancel btn">ОТМЕНА</button>
+                <a class="modal__btn modal__btn_reg btn" href="profile.html">ВОЙТИ</a>
+            </div>
+            </form>
+
+            <form action="#" class="modal__form modal__form_reg">
+                <div class="modal__inputs">
+                <div class="modal__input">
+                    <label for="email">Email</label>
+                    <input id="email" type="email">
+                </div>
+
+                <div class="modal__input">
+                    <label for="login">Логин</label>
+                    <input id="login" type="text">
+                </div>
+
+                <div class="modal__input">
+                    <label for="password">Пароль</label>
+                    <input id="password" type="password">
+                </div>
+
+                <div class="modal__input">
+                    <label for="password-repeat">Подтверждение пароля</label>
+                    <input id="password-repeat" type="password">
+                </div>
+
+                <div class="modal__input">
+                    <label for="name">Имя</label>
+                    <input id="name" type="text">
+                </div>
+
+                <div class="modal__input">
+                    <label for="surname">Фамилия</label>
+                    <input id="surname" type="text">
+                </div>
+
+                <div class="modal__input">
+                    <label for="phone">Телефон</label>
+                    <input id="phone" type="tel">
+                </div>
+                </div>
+
+                <div class="modal__text">
+                Нажимая кнопку «Зарегистрироваться», я соглашаюсь c политикой конфиденциальности и обработкой персональных данных.
+                </div>
+
+                <div class="modal__devider"></div>
+
+                <div class="modal__btns">
+                <button type="button" class="modal__btn modal__btn_cancel btn">ОТМЕНА</button>
+                <a href="profile.html" class="modal__btn modal__btn_reg btn">Зарегистрироваться</a>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    
+<script src="../../js/index.js"></script>
+</body>
+</html>
