@@ -127,7 +127,7 @@ const modal = document.querySelector('.modal'),
       triggers = document.querySelectorAll('.modal__trigger'),
       modalWindows = document.querySelectorAll('.modal__form'),
       openBtn = document.querySelector('.header__link'),
-      closeBtn = document.querySelector('.modal__btn_cancel');
+      closeBtns = document.querySelectorAll('.modal__btn_cancel');
 
 
 triggersParent.addEventListener('click', (e) => {
@@ -158,8 +158,10 @@ modal.addEventListener('click', (e) => {
     }
 })
 
-closeBtn.addEventListener('click', () => {
-    closeModal();
+closeBtns.forEach(btn => {
+    btn.addEventListener('click', () => {
+        closeModal();
+    })
 })
 
 
