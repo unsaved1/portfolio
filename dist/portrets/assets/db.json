@@ -1,0 +1,30 @@
+{
+    "styles": [
+        {
+            "src": "assets/img/styles-5.jpg",
+            "title": "Пастелью",
+            "link": "#pastel"
+        },
+        {
+            "src": "assets/img/styles-6.jpg",
+            "title": "Поп-арт",
+            "link": "#popart"
+        },
+        {
+            "src": "assets/img/styles-7.png",
+            "title": "Фотомозаика",
+            "link": "#mozaika"
+        },
+        {
+            "src": "assets/img/styles-8.jpg",
+            "title": "Шарж",
+            "link": "#sharj"
+        }
+    ],
+    "prices": {
+        "40x50": 100,
+        "50x70": 1200,
+        "70x70": 1900,
+        "70x100": 3500
+    }
+}
